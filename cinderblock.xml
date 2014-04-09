@@ -3,7 +3,7 @@
 <block
 	name="Cinder-V8"
 	id="org.libcinder.v8"
-	author="Ryan Bartley, Gal Sassoon"
+	author="Ryan Bartley, Gal Sasson"
 	summary="Chrome V8 Embedded project"
 	>
 	<supports os="ios" />
