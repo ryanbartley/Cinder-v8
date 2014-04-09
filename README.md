@@ -1,4 +1,4 @@
-This is a light Cinder Block exposing Chrome's V8 script parsing technology to Cinder.
+This is a light Cinder Block exposing Chrome's V8 script parsing technology to Cinder, created by myself and @galsasson.
 
 There are two samples that show a bit of the backbone of V8. The first is a simple HelloWorld showing the creation of a context and parsing a "Hello, World!" string. The second sample opens a Javascript shell and processes the information. 
 
