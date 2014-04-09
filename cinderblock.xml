@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="Cinder-V8"
+	id="org.libcinder.v8"
+	author="Ryan Bartley, Gal Sassoon"
+	summary="Chrome V8 Embedded project"
+	>
+	<supports os="ios" />
+	<supports os="macosx" />
+	<includePath>include</includePath>
+	<headerPattern>src/*.cpp</headerPattern>
+	<headerPattern>include/*.h</headerPattern>
+	<platform os="macosx">
+		<platform config="Debug">
+			<staticLibrary>lib/macosx/debug/libv8_base.a</staticLibrary>
+			<staticLibrary>lib/macosx/debug/libicudata.a</staticLibrary>
+			<staticLibrary>lib/macosx/debug/libicuuc.a</staticLibrary>
+			<staticLibrary>lib/macosx/debug/libicui18n.a</staticLibrary>
+			<staticLibrary>lib/macosx/debug/libv8_snapshot.a</staticLibrary>
+		</platform>
+		<platform config="Release">
+			<staticLibrary>lib/macosx/release/libv8_base.a</staticLibrary>
+			<staticLibrary>lib/macosx/release/libicudata.a</staticLibrary>
+			<staticLibrary>lib/macosx/release/libicuuc.a</staticLibrary>
+			<staticLibrary>lib/macosx/release/libicui18n.a</staticLibrary>
+			<staticLibrary>lib/macosx/release/libv8_snapshot.a</staticLibrary>
+		</platform>
+	</platform>
+</block>
+</cinder>
