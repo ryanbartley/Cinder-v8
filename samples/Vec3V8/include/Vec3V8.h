@@ -36,15 +36,22 @@ public:
 	static v8::Persistent<v8::FunctionTemplate> kConstructor;
 	static v8::Persistent<v8::FunctionTemplate> kPrototype;
 	static const std::string kConstructorName;
-	static const std::type_info kTypeInfo;
 };
 	
 template<typename T>
 v8::Persistent<v8::FunctionTemplate> Vec3<T>::kConstructor;
 template<typename T>
 v8::Persistent<v8::FunctionTemplate> Vec3<T>::kPrototype;
+	
+// TODO: Test with the type mixing
+template<>
+const std::string Vec3<float>::kConstructorName("Vec3f");
+template<>
+const std::string Vec3<int32_t>::kConstructorName("Vec3i");
+template<>
+const std::string Vec3<double>::kConstructorName("Vec3d");
 template<typename T>
-const std::string Vec3<T>::kConstructorName("Vec3f");
+const std::string Vec3<T>::kConstructorName("");
 
 template<typename T>
 void Vec3<T>::init( v8::Handle<v8::ObjectTemplate> global, v8::Isolate *isolate )
@@ -154,9 +161,7 @@ inline void Vec3<T>::getX( v8::Local<v8::String> name, const v8::PropertyCallbac
 	float x = request->x;
 	
 	// Wrap the result in a JavaScript string and return it.
-	info.GetReturnValue().Set(v8::String::NewFromUtf8( info.GetIsolate(),
-													  std::to_string(x).c_str(),
-													  v8::String::kNormalString ));
+	info.GetReturnValue().Set(x);
 }
 	
 template<typename T>
@@ -181,9 +186,7 @@ inline void Vec3<T>::getY( v8::Local<v8::String> name, const v8::PropertyCallbac
 	float y = request->y;
 
 	// Wrap the result in a JavaScript string and return it.
-	info.GetReturnValue().Set(v8::String::NewFromUtf8( info.GetIsolate(),
-													  std::to_string(y).c_str(),
-													  v8::String::kNormalString ));
+	info.GetReturnValue().Set(y);
 }
 
 template<typename T>
@@ -207,9 +210,7 @@ inline void Vec3<T>::getZ( v8::Local<v8::String> name, const v8::PropertyCallbac
 	float z = request->z;
 
 	// Wrap the result in a JavaScript string and return it.
-	info.GetReturnValue().Set(v8::String::NewFromUtf8( info.GetIsolate(),
-												  std::to_string(z).c_str(),
-												  v8::String::kNormalString ));
+	info.GetReturnValue().Set(z);
 }
 
 template<typename T>
