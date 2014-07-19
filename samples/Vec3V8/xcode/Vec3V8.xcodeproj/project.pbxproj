@@ -23,31 +23,30 @@
 
 /* Begin PBXFileReference section */
 		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		00B1E76BC223469D99454D05 /* v8-platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "v8-platform.h"; path = "../../../cinder_dev/blocks/Cinder-V8/include/v8-platform.h"; sourceTree = "<group>"; };
 		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		04863D0E1442465CABFCABBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C17C77A1F8F4D7C9324E94D /* v8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = v8.h; path = "../../../cinder_dev/blocks/Cinder-V8/include/v8.h"; sourceTree = "<group>"; };
-		0E73A64E3BF5402CAD7A2BE1 /* v8stdint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = v8stdint.h; path = "../../../cinder_dev/blocks/Cinder-V8/include/v8stdint.h"; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		300C8F51826D4237919B7C0D /* v8-testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "v8-testing.h"; path = "../../../cinder_dev/blocks/Cinder-V8/include/v8-testing.h"; sourceTree = "<group>"; };
-		3C164982E693483BA5E455C6 /* v8config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = v8config.h; path = "../../../cinder_dev/blocks/Cinder-V8/include/v8config.h"; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		5DC757D4517841B5B8321DE2 /* Vec3V8App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = Vec3V8App.cpp; path = ../src/Vec3V8App.cpp; sourceTree = "<group>"; };
 		64718AB0F67F4AF987791059 /* Vec3V8_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Vec3V8_Prefix.pch; sourceTree = "<group>"; };
-		7F765741E6EE4AE2B037B861 /* v8-profiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "v8-profiler.h"; path = "../../../cinder_dev/blocks/Cinder-V8/include/v8-profiler.h"; sourceTree = "<group>"; };
-		8285BBF4CE494BCF8BF263A4 /* v8-util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "v8-util.h"; path = "../../../cinder_dev/blocks/Cinder-V8/include/v8-util.h"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Vec3V8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vec3V8.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAC4592A77224870A19CB9CE /* v8-debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "v8-debug.h"; path = "../../../cinder_dev/blocks/Cinder-V8/include/v8-debug.h"; sourceTree = "<group>"; };
-		B352B7AC197A807700AAE26A /* Vec3V82.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Vec3V82.h; path = ../include/Vec3V82.h; sourceTree = "<group>"; };
+		B352B7AC197A807700AAE26A /* Vec3V8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Vec3V8.h; path = ../include/Vec3V8.h; sourceTree = "<group>"; };
+		B352B7AF197AA36900AAE26A /* v8-debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-debug.h"; sourceTree = "<group>"; };
+		B352B7B0197AA36900AAE26A /* v8-platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-platform.h"; sourceTree = "<group>"; };
+		B352B7B1197AA36900AAE26A /* v8-profiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-profiler.h"; sourceTree = "<group>"; };
+		B352B7B2197AA36900AAE26A /* v8-testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-testing.h"; sourceTree = "<group>"; };
+		B352B7B3197AA36900AAE26A /* v8-util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-util.h"; sourceTree = "<group>"; };
+		B352B7B4197AA36900AAE26A /* v8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v8.h; sourceTree = "<group>"; };
+		B352B7B5197AA36900AAE26A /* v8config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v8config.h; sourceTree = "<group>"; };
+		B352B7B6197AA36900AAE26A /* v8stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v8stdint.h; sourceTree = "<group>"; };
 		B3C66D701978CEB800EBDC36 /* v8Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = v8Engine.cpp; path = ../src/v8Engine.cpp; sourceTree = "<group>"; };
 		B3C66D711978CEB800EBDC36 /* v8Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = v8Engine.h; path = ../src/v8Engine.h; sourceTree = "<group>"; };
-		B3C66D741978D50700EBDC36 /* Vec3Template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vec3Template.h; path = ../src/Vec3Template.h; sourceTree = "<group>"; };
 		B3C66D761978F6E800EBDC36 /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = test.js; path = ../assets/test.js; sourceTree = "<group>"; };
 		D2E79484B8794D22A6C6DB5C /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		F0D3CDEF901547DDAF633C19 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
@@ -75,7 +74,7 @@
 		01B97315FEAEA392516A2CEA /* Blocks */ = {
 			isa = PBXGroup;
 			children = (
-				4777843EFEC64E93ABEC523D /* Cinder-V8 */,
+				B352B7AD197AA35B00AAE26A /* Cinder-V8 */,
 			);
 			name = Blocks;
 			sourceTree = "<group>";
@@ -86,8 +85,7 @@
 				5DC757D4517841B5B8321DE2 /* Vec3V8App.cpp */,
 				B3C66D711978CEB800EBDC36 /* v8Engine.h */,
 				B3C66D701978CEB800EBDC36 /* v8Engine.cpp */,
-				B3C66D741978D50700EBDC36 /* Vec3Template.h */,
-				B352B7AC197A807700AAE26A /* Vec3V82.h */,
+				B352B7AC197A807700AAE26A /* Vec3V8.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -165,27 +163,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4777843EFEC64E93ABEC523D /* Cinder-V8 */ = {
+		B352B7AD197AA35B00AAE26A /* Cinder-V8 */ = {
 			isa = PBXGroup;
 			children = (
-				FB911978040A4065B762D261 /* include */,
+				B352B7AE197AA36900AAE26A /* include */,
 			);
 			name = "Cinder-V8";
 			sourceTree = "<group>";
 		};
-		FB911978040A4065B762D261 /* include */ = {
+		B352B7AE197AA36900AAE26A /* include */ = {
 			isa = PBXGroup;
 			children = (
-				AAC4592A77224870A19CB9CE /* v8-debug.h */,
-				00B1E76BC223469D99454D05 /* v8-platform.h */,
-				7F765741E6EE4AE2B037B861 /* v8-profiler.h */,
-				300C8F51826D4237919B7C0D /* v8-testing.h */,
-				8285BBF4CE494BCF8BF263A4 /* v8-util.h */,
-				0C17C77A1F8F4D7C9324E94D /* v8.h */,
-				3C164982E693483BA5E455C6 /* v8config.h */,
-				0E73A64E3BF5402CAD7A2BE1 /* v8stdint.h */,
+				B352B7AF197AA36900AAE26A /* v8-debug.h */,
+				B352B7B0197AA36900AAE26A /* v8-platform.h */,
+				B352B7B1197AA36900AAE26A /* v8-profiler.h */,
+				B352B7B2197AA36900AAE26A /* v8-testing.h */,
+				B352B7B3197AA36900AAE26A /* v8-util.h */,
+				B352B7B4197AA36900AAE26A /* v8.h */,
+				B352B7B5197AA36900AAE26A /* v8config.h */,
+				B352B7B6197AA36900AAE26A /* v8stdint.h */,
 			);
 			name = include;
+			path = ../../../include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +262,7 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CINDER_PATH = ../../../../../;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
@@ -280,11 +280,11 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
 					"\"$(CINDER_PATH)/lib/libcinder_d.a\"",
-					"\"../../../cinder_dev/blocks/Cinder-V8/lib/macosx/debug/libv8_base.a\"",
-					"\"../../../cinder_dev/blocks/Cinder-V8/lib/macosx/debug/libicudata.a\"",
-					"\"../../../cinder_dev/blocks/Cinder-V8/lib/macosx/debug/libicuuc.a\"",
-					"\"../../../cinder_dev/blocks/Cinder-V8/lib/macosx/debug/libicui18n.a\"",
-					"\"../../../cinder_dev/blocks/Cinder-V8/lib/macosx/debug/libv8_snapshot.a\"",
+					"\"$(CINDER_PATH)/blocks/Cinder-V8/lib/macosx/debug/libv8_base.a\"",
+					"\"$(CINDER_PATH)/blocks/Cinder-V8/lib/macosx/debug/libicudata.a\"",
+					"\"$(CINDER_PATH)/blocks/Cinder-V8/lib/macosx/debug/libicuuc.a\"",
+					"\"$(CINDER_PATH)/blocks/Cinder-V8/lib/macosx/debug/libicui18n.a\"",
+					"\"$(CINDER_PATH)/blocks/Cinder-V8/lib/macosx/debug/libv8_snapshot.a\"",
 				);
 				PRODUCT_NAME = Vec3V8;
 				SYMROOT = ./build;
@@ -295,6 +295,7 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CINDER_PATH = ../../../../../;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -309,11 +310,11 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
 					"\"$(CINDER_PATH)/lib/libcinder.a\"",
-					"\"../../../cinder_dev/blocks/Cinder-V8/lib/macosx/release/libv8_base.a\"",
-					"\"../../../cinder_dev/blocks/Cinder-V8/lib/macosx/release/libicudata.a\"",
-					"\"../../../cinder_dev/blocks/Cinder-V8/lib/macosx/release/libicuuc.a\"",
-					"\"../../../cinder_dev/blocks/Cinder-V8/lib/macosx/release/libicui18n.a\"",
-					"\"../../../cinder_dev/blocks/Cinder-V8/lib/macosx/release/libv8_snapshot.a\"",
+					"\"$(CINDER_PATH)/blocks/Cinder-V8/lib/macosx/release/libv8_base.a\"",
+					"\"$(CINDER_PATH)/blocks/Cinder-V8/lib/macosx/release/libicudata.a\"",
+					"\"$(CINDER_PATH)/blocks/Cinder-V8/lib/macosx/release/libicuuc.a\"",
+					"\"$(CINDER_PATH)/blocks/Cinder-V8/lib/macosx/release/libicui18n.a\"",
+					"\"$(CINDER_PATH)/blocks/Cinder-V8/lib/macosx/release/libv8_snapshot.a\"",
 				);
 				PRODUCT_NAME = Vec3V8;
 				STRIP_INSTALLED_PRODUCT = YES;

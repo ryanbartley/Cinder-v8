@@ -8,7 +8,7 @@
 
 #include "v8Engine.h"
 #include "cinder/Log.h"
-#include "Vec3v82.h"
+#include "Vec3v8.h"
 
 using namespace v8;
 using namespace ci;
